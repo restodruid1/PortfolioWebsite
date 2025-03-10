@@ -3565,7 +3565,7 @@ input, select, textarea {
 			pointer-events: auto;
 			border-style: solid;
 			border-color: #ffffff;
-			border-width: 5px !important;
+			/*border-width: 5px !important;*/
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
@@ -3596,7 +3596,7 @@ input, select, textarea {
 				padding-bottom: 3rem;
 			}
 
-				#header .logo {
+				#header, .logo  {
 					font-size: 1.75rem;
 					border-width: 3px !important;
 				}
@@ -4691,6 +4691,32 @@ input, select, textarea {
 	text-align: left;
 }
 .pythonIMG {
-	height: auto;
-	width: 20%;
+	height: 30px;
+	width: 30px;
+}
+#python {
+	text-align: center;
+}
+.horizontal-list {
+    display: flex; /* Align items in a row */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    gap: 20px; /* Add spacing between items */
+	justify-content: center;
+}
+
+.horizontal-list li {
+    display: flex;
+    align-items: center; /* Align image and text on the same line */
+    gap: 10px; /* Space between image and text */
+}
+
+.horizontal-list img {
+    width: 50px; /* Adjust image size */
+    height: auto;
+	vertical-align: middle;
+}
+
+.logo {
+	height: 100px;
 }
