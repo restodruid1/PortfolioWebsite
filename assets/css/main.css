@@ -4720,3 +4720,8 @@ input, select, textarea {
 .logo {
 	height: 100px;
 }
+.round-image {
+	width: 30px; 
+    height: 25px; 
+    
+}
