@@ -3578,7 +3578,7 @@ input, select, textarea {
 
 			#header .logo:hover {
 				border-color: #18bfef !important;
-				color: #18bfef !important;
+				/* color: #18bfef !important; */
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4718,7 +4718,18 @@ input, select, textarea {
 }
 
 .logo {
-	height: 100px;
+	display: inline-flex;
+	height: 50px;
+	min-width: 50px;
+	width: fit-content;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.0rem !important;
+	padding: 0px 5px !important;
+	margin: 10px !important;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
 }
 .round-image {
 	width: 30px; 
