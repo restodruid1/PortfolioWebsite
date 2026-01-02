@@ -2669,12 +2669,12 @@ input, select, textarea {
 			transition: transform 0.2s ease-out;
 		}
 
-		a.image:hover img {
+		/* a.image:hover img {
 			-moz-transform: scale(1.05);
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
-		}
+		} */
 
 /* Actions */
 
@@ -4620,7 +4620,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7rem;
 		}
 
@@ -4733,6 +4733,12 @@ input, select, textarea {
 }
 .round-image {
 	width: 30px; 
-    height: 25px; 
-    
+    height: 25px;   
+}
+
+.anneWebsiteImage {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	width: 60%;
+	/* height: 60%; */
 }
